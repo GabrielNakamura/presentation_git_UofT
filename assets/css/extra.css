@@ -1,0 +1,28 @@
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.green{
+  color: green;
+}
+
+.upperleft {
+    margin: 0;
+    position: absolute;
+    top: auto;
+    left: auto;
+    transform: translate(-15%, -21%);
+}
+
+.bottomleft {
+    margin: 0;
+    position: absolute;
+    top: auto;
+    left: auto;
+    transform: translate(-4%, 39%);
+}

@@ -14,7 +14,17 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
+class: inverse, center, middle
 
+# Fundamentals of computational reproducibility
+
+## A (very!) short intruduction to reproducible reseaarch
+
+
+.large[Gabriel Nakamura | National Institute of Science and Technology - Brasil | `r Sys.Date()` ]
+
+
+---
 class: inverse, center, middle
 
 # A little disclaimer...
