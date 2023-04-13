@@ -1,0 +1,170 @@
+---
+title: "Fundamentals of computational reproducibility"
+subtitle: "A (very) short course on minimum reproducible research"
+author: "Gabriel Nakamura"
+institute: "National Institute of Science and Technology | UFG - Brazil"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    seal: false
+    nature:
+      titleSlideClass: "center"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: inverse, center, middle
+
+# A little disclaimer...
+
+```{r echo=FALSE,eval=TRUE,out.width="50%"}
+knitr::include_graphics(here::here("Figs", "disclaimer.jpeg"))
+```
+
+---
+
+# What you are going to see in the next 25 minutes...
+
+### What is, and what isn't open science?
+
+--
+
+### Open Science and reproducibility
+
+--
+
+### Computational resourses and practices to start with reproducibility 
+
+
+---
+
+# Open Science and reproducibility
+
+## What is open science (or what it isn't?)?
+
+.center[
+```{r echo=FALSE,eval=TRUE,out.width="70%"}
+knitr::include_graphics(here::here("Figs", "Open-Access-Publishing.gif"))
+```
+
+]
+
+
+---
+
+# What is open science?
+
+.pull-left[
+```{r echo=FALSE,eval=TRUE,out.width="100%", out.height="100%"}
+knitr::include_graphics(here::here("Figs", "Principles_open_science.png"))
+```
+]
+
+.pull-right[
+
+- Umbrella term for different ways to **remove barriers**
+
+- Open science is **about the proccess**
+
+- Extending the principle of **openness to the whole research cycle**
+
+]
+
+---
+
+# What is open science?
+
+.pull-left[
+```{r echo=FALSE,eval=TRUE,out.height="100%",out.width="100%"}
+knitr::include_graphics(here::here("Figs", "Principles_open_science2.png"))
+```
+]
+
+.pull-right[
+
+- Umbrella term for different ways to **remove barriers**
+
+- Open science is **about the proccess**
+
+- Extending the principle of **openness to the whole research cycle**
+
+]
+
+
+---
+
+# Why does it matter?
+
+.pull-left[
+
+```{r echo=FALSE,eval=TRUE}
+knitr::include_graphics(here::here("Figs", "reproducibility_crisis.webp"))
+```
+
+]
+
+.pull-right[
+
+- Is science trustful?
+
+- Reproducibility **crisis**
+
+- Reliability and **checking mechanisms**
+
+
+]
+
+
+---
+
+# How to make science open and reproducible
+
+.pull-left[
+
+```{r echo=FALSE,eval=TRUE}
+knitr::include_graphics(here::here("Figs", "Factors_improve_reproducibility.webp"))
+```
+
+]
+
+.pull-right[
+
+- The emphasis on the **process, rather than the results**
+
+- Good results are **consequences**
+
+]
+
+---
+
+class: inverse, center, middle
+
+# Get Started
+```{r echo=FALSE, eval=TRUE,out.width="70%"}
+knitr::include_graphics(path = here::here("Figs", "git_pull_comm_push.png"))
+```
+
+---
+class: inverse, middle, center
+
+# What we are about doing next?
+
+## 1 - How to use git and github?
+
+## 2 - How to integrate git and github with RStudio?
+
+## 3 - How to organize our repository and make it open and available?
+
+---
+class: inverse, middle, center
+
+# What you are be able to do at the end?
+
+## 1 - start your repository
+
+## 2 - organize your files 
+
+## 3 - extend your knowledge to other reproducibility techniques
+
